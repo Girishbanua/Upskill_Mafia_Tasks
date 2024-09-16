@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;  
+    font-size: 14px;
+  }
+  nav {  
+    height: 50px;
+  }
+  .container {
+    margin: 5vh auto;
+    width: 75vw;
+  }
+  nav h2,
+  ul,
+  li {
+    display: inline;
+    cursor: pointer;
+  }
+  ul {
+    list-style-type: none;
+    margin: auto 300px;
+  }
+  li {
+    margin: 0 20px;
+    color: grey;
+  }
+  nav button {
+    padding: 15px 10px;
+    border-radius: 10px;
+    width: 100px;
+    background: rgb(222, 239, 255);
+    border: none;
+    color: rgb(59, 157, 255);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  nav button:hover {
+    background: rgb(59, 157, 255);
+    color: rgb(222, 239, 255);
+    outline: 2px solid rgb(222, 239, 255);
+  }
+  .content {
+    margin-top: 50px;
+  }
+  .heroText {
+    display: inline-block;
+    width: 50%;
+  }
+  .heroText h1 {
+    font-size: 3.5rem;
+    color: rgb(73, 73, 73);
+  }
+  .heroText p {
+    font-size: 1.3rem;
+    color: slategrey;
+    margin-top: 20px;
+  }
+  .heroText span {
+    color: rgb(59, 157, 255);
+  }
+  .heroText button {
+    padding: 20px 30px;
+    border: none;
+    background: rgb(59, 157, 255);
+    color: white;
+    border-radius: 15px;
+    width: 250px;
+    margin-top: 30px;
+    cursor: pointer;  
+  }
+  .heroText button:hover {
+    background: rgb(222, 239, 255);
+    color: rgb(59, 157, 255);
+    outline: 1px solid rgb(59, 157, 255);
+  }
+  .heroImg {
+    display: inline;
+    margin: 3vw;
+  }
+  .heroImg img {
+    width: 500px;
+    height: auto;
+  }
+  

@@ -1,0 +1,196 @@
+:root {
+  --black: #303031;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  background-color: lightgoldenrodyellow;
+  color: var(--black);
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: white;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+nav .user {
+  display: flex;
+  align-items: center;
+}
+.user p {
+  background-color: rgba(187, 235, 252, 0.5);
+  padding: 10px;
+  border-radius: 15px 0 0 15px;
+  color: rgb(150, 164, 255);
+  font-weight: bold;
+}
+.user button {
+  border: none;
+  background-color: rgba(252, 187, 251, 0.5);
+  padding: 12px;
+  border-radius: 0 15px 15px 0;
+  cursor: pointer;
+  color: palevioletred;
+  font-weight: bold;
+}
+main {
+  display: flex;
+  margin: 5vh 10vw;
+  gap: 40px;
+}
+main div {
+  border-radius: 15px;
+}
+.left {
+  width: 50%;
+}
+.left .upperSection {
+  background: white;
+}
+.left .upperSection > h1 {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1.7rem;
+}
+.serviceBill header {
+  display: flex;
+  justify-content: space-between;
+  background: lightgray;
+  padding: 5px 20px;
+}
+.serviceBill .itemList .emptyList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2vh 0;
+  padding: 30px 10px;
+}
+.emptyList h1 {
+  font-size: 3rem;
+}
+.emptyList {  
+  border-radius: 0;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px 20px;
+}
+.total p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.lowerSection {
+  background: white;
+  margin: 15px 0 0;
+  padding: 20px;
+}
+.lowerSection header {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.input {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.input input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  width: 100%;
+}
+.lowerSection #book {
+  margin-top: 20px;
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background: lightblue;
+  cursor: pointer;
+}
+
+.right {
+  background: white;
+  width: 50%;
+  padding: 20px;
+}
+.right > p {
+  color: gray;
+  margin: 10px 0 20px;
+}
+.right .imageSection {
+  border-top: 1px solid gray;
+  border-radius: 0;
+  padding: 10px;
+}
+.right .serviceNamePrice {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 15px 0;
+  justify-content: space-between;
+}
+.right .imageSection img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.right .browseBtns {
+  display: flex;
+  gap: 10px;
+}
+.right button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.right .addLink {
+  margin-top: 35px;
+}
+.addLink a {
+  text-decoration: none;
+  font-weight: bold;
+}
+/*making the div visible or hidden*/
+.hidden {
+  display: none;
+}
+.addedList{
+  width: 100%; 
+  text-align: center
+}
+.newItem td{
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  
+}
+.remove{
+  background: red;
+  color: white;
+  padding:5px;
+  border: none;
+  border-radius: 7px;
+}

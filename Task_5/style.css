@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;    
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.img_cntnr{
+    width: 50%;
+}
+.img_cntnr img{
+    width: 100%;
+    object-fit: cover;
+}
+.form_cntnr{
+    width: 50%;    
+    background: aliceblue;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form_cntnr h1{
+    font-size: 3rem;
+    color: rgb(40, 40, 40);
+}
+.form_cntnr p{
+    font-size: 1.5rem;
+    color: rgb(40, 40, 40);
+}
+.form_cntnr form{
+    display: flex;
+    flex-direction: column;    
+    width: 80%;
+}
+.form_cntnr label{
+    font-size: 1rem;
+    color: rgb(40, 40, 40);
+    margin-top: 20px;
+}
+.form_cntnr input{
+    padding: 20px;
+    border: none;
+    font-size: 1.2rem;        
+    color: grey;
+    border-radius: 10px;
+    margin: 7px 0;
+}
+.form_cntnr a{
+    margin: 10px 0;
+    align-self: flex-end;
+    text-decoration: none;
+}
+.form_cntnr button{
+    padding: 20px;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin: 7px 0;
+    background: lightskyblue;
+    color: white;
+    cursor: pointer;
+}
+.form_cntnr span{
+    font-weight: 400;
+    color: rgb(40, 40, 40);
+    margin-top: 80px;
+}

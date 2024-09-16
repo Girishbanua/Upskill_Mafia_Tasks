@@ -1,0 +1,20 @@
+body{
+    background: coral;
+}
+.head{
+    color: blue;
+}
+#bglime{
+    background-color: lime;
+}
+p{
+    color: white;
+}
+ul{
+    color: white;
+}
+a {
+    color: #390000;
+    text-decoration: none;
+    font-weight: bold;
+}

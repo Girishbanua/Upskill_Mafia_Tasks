@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+nav {
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+li {
+  margin: 0 20px;
+  color: grey;
+  cursor: pointer;
+}
+li:hover {
+  color: rgb(59, 157, 255);
+  border-bottom: 1px solid rgb(59, 157, 255);
+}
+nav button {
+  padding: 15px 10px;
+  border-radius: 10px;
+  width: 100px;
+  background: rgb(222, 239, 255);
+  border: none;
+  color: rgb(59, 157, 255);
+  font-weight: bold;
+  cursor: pointer;
+}
+nav button:hover {
+  background: rgb(59, 157, 255);
+  color: rgb(222, 239, 255);
+}
+nav .hamburger {
+  display: none;
+}
+.container {
+  margin: 5vh auto;
+  width: 75vw;
+}
+.sidebar {
+  display: none;
+}
+.content {
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heroText {
+  width: 50%;
+}
+.heroText h1 {
+  font-size: 3.5rem;
+  color: rgb(73, 73, 73);
+}
+.heroText p {
+  font-size: 1.3rem;
+  color: slategrey;
+  margin-top: 3vh;
+}
+.heroText span {
+  color: rgb(59, 157, 255);
+}
+.heroText button {
+  padding: 20px 30px;
+  border: none;
+  background: rgb(59, 157, 255);
+  color: white;
+  border-radius: 15px;
+  width: 250px;
+  margin-top: 4vh;
+  cursor: pointer;
+  font-weight: bold;
+}
+.heroText button:hover {
+  background: rgb(222, 239, 255);
+  color: rgb(59, 157, 255);
+  outline: 1px solid rgb(59, 157, 255);
+}
+.heroImg img {
+  width: 550px;
+}
+@media screen and (max-width: 481px) {
+  nav ul {
+    display: none;
+  }
+  nav .hamburger {
+    display: block;
+    height: inherit;
+    padding: 0;
+    background: transparent;
+  }
+  nav .hamburger img {
+    width: 50%;
+    height: inherit;
+  }
+  .hamburger:focus + .sidebar, .sidebar:focus{
+    display: flex;
+  }
+  .sidebar {
+    display: none;
+    text-align: center;
+    background: black;
+    height: 100vh;
+    align-items: center;    
+    position: absolute;
+    width: 70vw;
+    top: 0;
+    right: 0;    
+  }
+  .sidebar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+  }
+  .sidebar ul li {
+    font-size: 1.5rem;
+    width: 100%;        
+  }
+  .container {
+    width: 90vw;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .heroText {
+    width: 100%;
+  }
+  .heroText h1 {
+    font-size: 2.1rem;
+  }
+  .heroText p {
+    font-size: 0.9em;
+  }
+  .heroImg img {
+    width: 100%;
+    margin-top: 10vh;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .container {
+    width: 90vw;
+  }
+  .heroText {
+    width: 100%;
+  }
+  .heroText h1 {
+    font-size: 2rem;
+  }
+  .heroText p {
+    font-size: 0.9rem;
+  }
+  .heroImg img {
+    width: 400px;
+  }
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+button{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+body{
+    position: relative;
+}
+nav{
+    position: fixed;
+    top: 0;    
+    right: 0;
+    left: 0;
+    background: white;
+}
+.greet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10vw;
+    padding: 20px;    
+}
+.greet h1{
+    font-size: 2.5rem;
+    color: rgb(34, 103, 200);
+}
+.greet button{
+    background: white;
+    outline: 1px solid rgb(15, 115, 255);
+    color: rgb(34, 103, 200);
+}
+.searchBox{
+    width: 50vw;
+    margin: 5vh 10vw;  
+    padding: 10px;      
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.searchBox input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightslategray;
+    width: 100%;
+    font-size: 1.2vw;
+}
+.searchBox button{
+    background-color: rgb(58, 107, 255);
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+.container{
+    margin: 36vh 10vw;
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;    
+    flex-wrap: wrap;
+    gap: 30px 15px;    
+}
+.box{
+    background-color: rgba(227, 238, 254, 0.74);
+    padding: 20px;
+    border-radius: 12px;
+    width: 350px;
+    height: 220px;
+    border: 1px solid rgb(58, 107, 255);
+    font-size: 1.5rem;
+}
