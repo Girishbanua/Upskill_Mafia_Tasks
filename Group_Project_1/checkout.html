@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>checkout</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="checkoutPage">
+      <div class="left">
+        <div class="left_content">
+          <h3>Checkout</h3>
+          <h2>Contact Details</h2>
+          <label for="mail">Email ID</label>
+          <input type="email" placeholder="Enter Email" />
+          <h2>Payment</h2>
+          <div class="payment">
+            <div class="cards">
+              <div class="card">
+                <img src="./images/credit-card.png" alt="icons" />
+                <p>Card</p>
+              </div>
+              <div class="card">
+                <img src="./images/bitcoin.png" alt="icons" />
+                <p>Crypto</p>
+              </div>
+              <div class="card">
+                <img src="./images/bank.png" alt="icons" />
+                <p>Bank</p>
+              </div>
+              <div class="card">
+                <img src="" alt="more" />
+              </div>
+            </div>
+            <div class="entries">
+              <div>
+                <label for="cardnum">Card Number</label>
+                <input type="text" placeholder="Enter Card Number" />
+              </div>
+              <div>
+                <div>
+                  <label for="cvv">CVV</label>
+                  <input type="text" placeholder="Enter CVV" />
+                </div>
+                <div>
+                  <label for="exp">Expiry</label
+                  ><input type="text" placeholder="Enter Expiry" />
+                </div>
+                <div>
+                  <label for="country">Country</label>
+                  <input type="text" placeholder="Enter Country" />
+                </div>
+                <div>
+                  <label for="zip">ZIP</label>
+                  <input type="text" placeholder="XXXXXX" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <h2>Order Summary</h2>
+        <div class="pay">
+          <p>Enter Coupon Code</p>
+          <div class="coupon">
+            <input type="text" placeholder="coupon code" />
+            <button>Apply Coupon</button>
+          </div>
+          <div class="total">
+            <table>
+              <tr>
+                <td>Sub Total</td>
+                <td>$4,700</td>
+              </tr>
+              <tr>
+                <td>Taxes(if applicable)</td>
+                <td>$199</td>
+              </tr>
+              <tr>
+                <td>Discount</td>
+                <td>$0</td>
+              </tr>
+              <tr>
+                <td><h3>Total</h3></td>
+                <td><h3>₹ 1,334</h3></td>
+              </tr>
+            </table>
+          </div>
+          <button class="checkout">
+            <a href="./index.html">Checkout</a>
+          </button>
+          <div class="secureImgs">
+            <img src="./images/pngwing.com.png" alt="" />
+            <img src="./images/pngwing.com(1).png" alt="" />
+            <img src="./images/credit-card(1).png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
