@@ -1,0 +1,40 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;    
+  }
+  
+  .card {    
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    height: 200px;
+    position: relative;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242424;
+    cursor: pointer;
+  }
+  
+  .card::before {
+    content: "";
+    position: absolute;
+    width: 101.5%;
+    height: 103%;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #ff6b6b, #f4d03f);
+    z-index: -1;
+    
+  }
+  
+  .card:hover::before {
+   z-index: 1;
+  }
+  
+  .card-content {
+    position: relative;
+    z-index: 1;
+  }
+  
